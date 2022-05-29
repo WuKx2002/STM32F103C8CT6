@@ -3,8 +3,12 @@
 
 int main(void)
 {
-	
 	LED_Configuration();
+	PA0_EXTI0_Configuration();
+	
+	while(1)
+	{
+	}
 
 }
 

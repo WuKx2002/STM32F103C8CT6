@@ -37,7 +37,9 @@ int Key_Scan(GPIO_TypeDef* GPIOx, unsigned int Pin)
 		if (GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_0) == 0)
 		{
 			while(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_0) == 0);
+			{
 				return Key_On;
+			}
 		}
 		return Key_Off;
 	}
