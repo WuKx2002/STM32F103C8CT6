@@ -1,0 +1,6 @@
+-c --cpu "Cortex-M3" -g -Wabdfrvy+glpsu -O0 --apcs=/interwork --split_sections -I .\User -I .\Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I .\Lib\CMSIS\CM3\CoreSupport -I .\Lib\STM32F10x_StdPeriph_Driver\inc -I .\Lib\STM32F10x_StdPeriph_Driver\src
+-ID:\Program\Keil5\ARM\RV31\INC
+-ID:\Program\Keil5\ARM\CMSIS\Include
+-ID:\Program\Keil5\ARM\INC\ST\STM32F10x
+-D__UVISION_VERSION="537" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o .\objects\main.o --depend .\objects\main.d "User\main.c"
