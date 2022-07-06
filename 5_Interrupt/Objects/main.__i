@@ -1,6 +1,0 @@
--xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
--fno-rtti -funsigned-char -fshort-enums -fshort-wchar
--gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./User -I ./Lib/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ./Lib/CMSIS/CM3/CoreSupport -I ./Lib/STM32F10x_StdPeriph_Driver/src -I ./Lib/STM32F10x_StdPeriph_Driver/inc
--ID:/Program/Keil_v5/ARM/PACKS/Keil/STM32F1xx_DFP/2.4.0/Device/Include
--D__UVISION_VERSION="537" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
--o ./objects/main.o -MD "User/main.c"
