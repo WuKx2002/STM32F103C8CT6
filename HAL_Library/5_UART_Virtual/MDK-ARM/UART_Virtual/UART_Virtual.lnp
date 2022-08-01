@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"uart_virtual\startup_stm32f103xb.o"
+"uart_virtual\main.o"
+"uart_virtual\gpio.o"
+"uart_virtual\stm32f1xx_it.o"
+"uart_virtual\stm32f1xx_hal_msp.o"
+"uart_virtual\stm32f1xx_hal_gpio_ex.o"
+"uart_virtual\stm32f1xx_hal_tim.o"
+"uart_virtual\stm32f1xx_hal_tim_ex.o"
+"uart_virtual\stm32f1xx_hal.o"
+"uart_virtual\stm32f1xx_hal_rcc.o"
+"uart_virtual\stm32f1xx_hal_rcc_ex.o"
+"uart_virtual\stm32f1xx_hal_gpio.o"
+"uart_virtual\stm32f1xx_hal_dma.o"
+"uart_virtual\stm32f1xx_hal_cortex.o"
+"uart_virtual\stm32f1xx_hal_pwr.o"
+"uart_virtual\stm32f1xx_hal_flash.o"
+"uart_virtual\stm32f1xx_hal_flash_ex.o"
+"uart_virtual\stm32f1xx_hal_exti.o"
+"uart_virtual\system_stm32f1xx.o"
+--strict --scatter "UART_Virtual\UART_Virtual.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "UART_Virtual.map" -o UART_Virtual\UART_Virtual.axf
